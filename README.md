@@ -17,3 +17,5 @@ Project consists of two jupyter notebooks:
   * *Target*: a data set with 29 unlabeled features is given, you need to clusterize this data. The number of clusters is uknown.
   * *Approach*: I found semi-supervised approach very interesting, especially if you will tune models parameters (resource-intensive), score can be much better. The main idea is to train clusterization model, then take the most confident results of it, and train classification models using these results. After this you can implement iterative classification to improve score even further.
   * *Results*: My best score = 0.808 (which is pretty good, current leader score is 0.831).
+
+**All references are in the code!**
